@@ -64,6 +64,7 @@ header .sns li {
   margin-left: auto;
   position: relative;
   clear: both;
+  padding-top: 5em;
   padding-bottom: 5em;
 }
 
@@ -74,8 +75,22 @@ header .sns li {
   bottom: -3em;
 }
 
+h1{
+  margin-block-start: 0.67em;
+  margin-block-end: 1.6em;
+}
+
 img {
   vertical-align: bottom;
   height: auto;
   width: 100%;
+}
+
+#main{
+  width: 63%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 7em;
+  text-align: right;
+  position: relative;
 }
