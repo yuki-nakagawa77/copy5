@@ -35,6 +35,7 @@ ol, ul {
 }
 
 header .gnavi li {
+  /*ヘッダー左のリスト*/
   float: left;
   font-weight: 600;
   margin-right: 2.2em;
@@ -43,6 +44,7 @@ header .gnavi li {
 }
 
 a:link, a:visited, a:active {
+  /**/
   color: #000000;
   text-decoration: none;
 }
@@ -64,8 +66,8 @@ header .sns li {
   margin-left: auto;
   position: relative;
   clear: both;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 1em;
+  padding-bottom: 3em;
 }
 
 .home header h1 img {
@@ -81,12 +83,14 @@ h1{
 }
 
 img {
+  /*画像全体の配置*/
   vertical-align: bottom;
   height: auto;
   width: 100%;
 }
 
 #main{
+  /*一番上の画像配置*/
   width: 63%;
   margin-right: auto;
   margin-left: auto;
