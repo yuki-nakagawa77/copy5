@@ -27,10 +27,12 @@ div {
 }
 
 header .gnavi {
+  /*ヘッダー左のリスト*/
   float: left;
 }
 
 ol, ul {
+  /*リストの点削除*/
   list-style: none;
 }
 
@@ -44,16 +46,18 @@ header .gnavi li {
 }
 
 a:link, a:visited, a:active {
-  /**/
+  /*ヘッダー左のリスト*/
   color: #000000;
   text-decoration: none;
 }
 
 header .sns {
+  /*ヘッダー右のリスト*/
   float: right;
 }
 
 header .sns li {
+  /*ヘッダー右のリスト*/
   font-size: 2em;
   line-height: 1em;
   float: right;
@@ -61,6 +65,7 @@ header .sns li {
 }
 
 .home header h1 {
+  /*タイトルの編集*/
   width: 85%;
   margin-right: auto;
   margin-left: auto;
@@ -71,6 +76,7 @@ header .sns li {
 }
 
 .home header h1 img {
+  /*タイトルの編集*/
   position: absolute;
   left: 0px;
   z-index: 1;
@@ -78,6 +84,7 @@ header .sns li {
 }
 
 h1{
+  /*タイトルの編集*/
   margin-block-start: 0.67em;
   margin-block-end: 1.6em;
 }
