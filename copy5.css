@@ -105,3 +105,70 @@ img {
   text-align: right;
   position: relative;
 }
+
+
+#contents{
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+#contents .list {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  overflow: hidden;
+}
+
+element.style {
+  height: 321px;
+}
+
+#contents .list.three li {
+  float: left;
+  width: 25%;
+  margin-right: 8%;
+  margin-bottom: 5em;
+}
+
+#contents .list li dt {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+#contents .list li dt span {
+  font-size: 1em;
+  line-height: 1em;
+  background-color: #FFF;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  padding: 0.5em;
+  display: block;
+}
+
+#contents .list li dd:nth-child(2) {
+  padding-bottom: 0.5em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+  display: inline-block;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  font-style: italic;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+#contents .list li dd:nth-child(3) {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+#contents .list li dd:last-child {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
