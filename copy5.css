@@ -188,3 +188,28 @@ element.style {
 }
 /*↑contentsのCSSここまで↑*/
 
+#footer {
+  margin-right: 5em;
+  margin-left: 5em;
+  position: relative;
+  clear: both;
+  padding-top: 5em;
+}
+
+footer {
+  display: block;
+}
+
+#footer dt {
+  width: 25%;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+}
+
+#footer dd:last-child {
+  width: 4%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
