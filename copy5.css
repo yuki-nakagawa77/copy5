@@ -188,6 +188,7 @@ element.style {
 }
 /*↑contentsのCSSここまで↑*/
 
+/*footerここから*/
 #footer {
   margin-right: 5em;
   margin-left: 5em;
@@ -213,3 +214,4 @@ footer {
   right: 0px;
   bottom: 0px;
 }
+/*footerここまで*/
